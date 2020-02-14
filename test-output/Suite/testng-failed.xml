@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="RestAssured.RestAssured01.TC_07_Oauth">
+        <methods>
+          <include name="oauthOne"/>
+        </methods>
+      </class> <!-- RestAssured.RestAssured01.TC_07_Oauth -->
+      <class name="RestAssured.RestAssured01.TC_09_Oauth2_GenerateToken_And_PassTheValueToRequest">
+        <methods>
+          <include name="genearteTokenAndPassValue"/>
+        </methods>
+      </class> <!-- RestAssured.RestAssured01.TC_09_Oauth2_GenerateToken_And_PassTheValueToRequest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

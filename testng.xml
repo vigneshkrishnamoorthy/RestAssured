@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+  <test thread-count="2" name="Test" parallel="tests">
+    <classes>
+      <class name="RestAssured.RestAssured01.AppTest"/>
+      <class name="RestAssured.RestAssured01.TC_06_001Authentication_Using_BaseClass"/>
+      <class name="RestAssured.RestAssured01.TC_07_Oauth"/>
+      <class name="RestAssured.RestAssured01.TC_05_Put"/>
+      <class name="RestAssured.RestAssured01.TC_01_GetRequest"/>
+      <class name="RestAssured.RestAssured01.TC_03_Post"/>
+      <class name="RestAssured.RestAssured01.TC_06_Authentication"/>
+      <class name="RestAssured.RestAssured01.TC_02_PutRequest"/>
+      <class name="RestAssured.RestAssured01.TC_04_Delete"/>
+      <class name="RestAssured.RestAssured01.TC_09_Oauth2_GenerateToken_And_PassTheValueToRequest"/>
+      <class name="RestAssured.RestAssured01.TC_08_Oauth2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
